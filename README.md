@@ -18,7 +18,7 @@ Run the following commands and you'll see the demonstration in its full swing!
 
 ```bash
 terraform init
-terraform apply
+./deploy.sh
 pip3 install -r requirements.txt
 python3 demonstrate_secure_lambda_invocation.py
 ```
