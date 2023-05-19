@@ -23,6 +23,6 @@ pip3 install -r requirements.txt
 python3 demonstrate_secure_lambda_invocation.py
 ```
 
-A blog post on [my blog](www.nickminaev.com) is yet to be published. Stay tuned.
+A blog post on [my blog](https://www.nickminaev.com/) is yet to be published. Stay tuned.
 
 
