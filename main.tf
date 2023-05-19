@@ -100,18 +100,18 @@ resource "aws_iam_role_policy_attachment" "lambda_invoker_role_policy_attachment
   policy_arn = aws_iam_policy.invoke_lambda_permissions.arn
 }
 
-output "function_invoker_access_key_id" {
+output "function_invoker_user_access_key_id" {
   description = "Function invoker access key id"
   value       = aws_iam_access_key.lambda_invoker_key.id
 }
 
-output "function_invoker_access_key" {
+output "function_invoker_user_secret" {
   description = "Function invoker access key"
   value       = aws_iam_access_key.lambda_invoker_key.secret
   sensitive   = true
 }
 
-output "function_invoker_role" {
+output "function_invoker_role_arn" {
   description = "Function invoker ARN"
   value       = aws_iam_role.function_invoker.arn
 }
